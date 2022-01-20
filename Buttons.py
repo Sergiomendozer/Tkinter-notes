@@ -8,7 +8,7 @@ def myClick():
 
 
 #myButton = Button(root, text = "click", state = disable)
-#myButton = Button(root, text = "click", padx=50, pady = 50)
+#myButton = Button(root, text = "click", padx=50, pady = 50, font = 32)
 
 #fg = text color
 # bg = background color (hex# color does work to choose color)
