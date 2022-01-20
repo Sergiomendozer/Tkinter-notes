@@ -11,7 +11,7 @@ def myClick():
 #myButton = Button(root, text = "click", padx=50, pady = 50)
 
 #fg = text color
-# bg = background color
+# bg = background color (hex# color does work to choose color)
 myButton = Button(root, text = "click", command = myClick, fg="Blue", bg = "red")
 
 myButton.pack()
