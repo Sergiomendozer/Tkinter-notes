@@ -2,7 +2,7 @@ from tkinter import *
 
 
 root = Tk()
-root.geometry("500x500") # size of window that opens 
+root.geometry("500x500") # size of window that opens # (left and right , up and down)
 
 Grid.rowconfigure(root, 0, weight = 1) # 0 = row, same as
 Grid.columnconfigure(root, 0, weight = 1) # 0 = column, same as
