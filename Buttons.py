@@ -2,6 +2,7 @@ from cProfile import label
 from faulthandler import disable
 from tkinter import *
 root = Tk()
+
 def myClick():
     myLabel = Label(root, text = "Hello World!")
     myLabel.pack()
