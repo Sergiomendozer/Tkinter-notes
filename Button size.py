@@ -1,6 +1,7 @@
 from cProfile import label
 from faulthandler import disable
 from tkinter import *
+
 root = Tk()
 
 # Grid.rowconfigure(root, 0, weight = 1) # 0 = row, same as
@@ -10,8 +11,8 @@ root = Tk()
 # Grid.columnconfigure(root, 1, weight = 1)
 
 
-myButton = Button(root, text = "click")
-myButton2 = Button(root, text = "click2")
+myButton = Button(root, text="click")
+myButton2 = Button(root, text="click2")
 myButton.grid(row=0, column=0, sticky="nsew")
 myButton2.grid(row=1, column=0, sticky="nsew")
 
@@ -21,8 +22,8 @@ button_list = [myButton, myButton2]
 row_number = 0
 
 for button in button_list:
-    Grid.rowconfigure(root, row_number, weight = 1)
-    row_number =+1
+    Grid.rowconfigure(root, row_number, weight=1)
+    row_number = +1
 
 
 root.mainloop()
